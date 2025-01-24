@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'ROBOTO', sans-serif;
+    font-weight: lighter;
+}
+a, strong {  
+    font-family: 'Playwrite VN', sans-serif;
+    font-style: italic;
+    color: rgb(75, 235, 75);
+    font-weight: bold;
+}
+
+ a {
+     text-decoration: none;
+     color: rgb(97, 54, 239);
+ }
+
+ a:hover {
+     color: red;
+     text-decoration: underline;
+ }
+
+ a:active {
+     color: black;
+ }
+

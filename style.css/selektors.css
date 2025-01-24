@@ -1,0 +1,25 @@
+.block h1 {
+    color: black;
+    text-shadow: 1px 2px;
+    margin: 10px;
+}
+
+.block {
+    color: blue;
+    background-color: rgba(198, 241, 241, 0.2);
+}
+
+.puch {
+   padding: 10px 25px;
+   background: #159;
+   color: azure;
+   border-radius: 10px;
+   border: none;
+   cursor: pointer;
+   margin: 5px;
+}
+
+.puch:hover {
+opacity: 0.8;
+color: black;
+}
