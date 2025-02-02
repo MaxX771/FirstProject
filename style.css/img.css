@@ -1,0 +1,60 @@
+.img {
+    width: 350px;
+    display: block;
+    margin: 40px auto;
+    
+}
+
+.tab li{
+    display: inline;
+    border: 2px dashed rgb(23, 22, 22);
+    margin: 5px;
+    padding: 5px;
+    background-color: #f8f3f3;
+}
+
+.tab :hover {
+ opacity: .8;
+ color: aqua;
+ background-color: cadetblue;
+}
+
+
+.box {
+    /* display: inline; */
+    width: 30%;
+    border: 2px solid #4f4f4f;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.box:hover {
+    overflow: hidden;
+    opacity: .8;
+    background-color: aqua;
+}
+
+.img1 {
+    width: 250px;
+    display: block;
+    margin: 40px auto;
+}
+
+.play {
+    border: 2px solid black;
+    height: 400px;
+}
+
+.play-box {
+    position:fixed;
+    left: 50px;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(2, 27, 27);
+    padding: 20px;
+    margin: 20px;
+}
+

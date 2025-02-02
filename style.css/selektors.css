@@ -1,12 +1,24 @@
 .block h1 {
     color: black;
     text-shadow: 1px 2px;
-    margin: 10px;
+    margin: 5px;
 }
 
 .block {
+    display: flex;
+    padding: 5px;
     color: blue;
     background-color: rgba(198, 241, 241, 0.2);
+}
+
+.block header {
+    margin: 0px 10px 10px 10px;
+    text-align: center;
+}
+
+.block p {
+    padding: 0px 15px;
+    text-align: center;
 }
 
 .puch {
